@@ -85,6 +85,7 @@ h2 {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   text-align: center;
+  font-family: 'Questrial', sans-serif;
   color: #000;
   background-image: linear-gradient(#7d6e21, #fde777, #7d6e21, #7d6e21);
   border: none;

@@ -1,0 +1,103 @@
+body {
+  background-color: #000;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-family: 'Questrial', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  padding: 2em 0;
+}
+
+img {
+  width: 100%
+}
+
+.container {
+  padding: 0em 1em;
+}
+
+p {
+  text-align: center;
+  color: #d6c156;
+  margin-bottom: 1.5em;
+/*  background: -webkit-linear-gradient(#7d6e21, #fde777, #7d6e21, #7d6e21, #fde777, #c5b358);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 3em;
+  line-height: 1.2em;
+  letter-spacing: 0.15em;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  background: -webkit-linear-gradient(#7d6e21, #fde777, #7d6e21, #c5b358);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  letter-spacing: 0.1em;
+  font-weight: 100;
+  text-align: center;
+  padding-bottom: 2em;
+  background: -webkit-linear-gradient(#7d6e21, #fde777, #7d6e21, #c5b358);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stianDiv {
+  float: left;
+  left: 50%;
+  position: relative;
+}
+
+.stianButton {
+  position: relative;
+  float: left;
+  left: -50%;
+  display: inline-block;
+  width: 16em;
+  padding: 0.5em 1em 0.5em 1em;
+  margin: 0.1em;
+  border-radius: 0.2em;
+  font-size: 1em;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  background-image: linear-gradient(#7d6e21, #fde777, #7d6e21, #7d6e21);
+  border: none;
+}
+
+.stianButton:hover {
+  padding: 0.6em 1.1em 0.6em 1.1em;
+  margin: 0em;
+  width: 16.2em;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    font-size: 1.2em;
+  }
+}
